@@ -1,5 +1,5 @@
-# Snake-Game
-This is our all time favourite snake game made using ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript) & https://img.shields.io/badge/-Bootstrap-red 🐍
+# Snake-Game 🐍
+This is our all time favourite snake game designed using ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript) & ![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=bootstrap)
 
 <hr>
 
