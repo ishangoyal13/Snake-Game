@@ -66,3 +66,9 @@ button.close {
 .modal{
     backdrop-filter: blur(5px);
 }
+
+@media(max-width:960px){
+    .heading{
+        font-size: 40px;
+    }
+}
