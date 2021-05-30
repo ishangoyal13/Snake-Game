@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    background: url("../assests/game_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#score{
+    position: absolute;
+    top: 9px;
+    right: 200px;
+    font-size: 45px;
+    font-family: 'Architects Daughter', cursive;
+    color: white;
+}
+#board{
+    background: linear-gradient(rgba(172, 245, 255, 0.726),rgb(102, 201, 102));
+    width: 90vmin;
+    height: 92vmin;
+    border: 2px solid black;
+    display:grid;
+    grid-template-columns: repeat(18,1fr);
+    grid-template-rows: repeat(18,1fr);
+}
+
+.head{
+    background:linear-gradient(rgb(255, 2, 2),rgb(255, 255, 0));
+    border: .20vmin solid black;
+    border-radius: 30% 30%;
+    transform: scale(-1);
+}
+
+.snake{
+    background-color: rgb(238, 50, 43);
+    border: .20vmin solid rgb(0, 0, 0);
+    border-radius: 30% 30%;
+    transform: scale(-0.9);
+}
+.food{
+    background-color: orange;
+    border-radius: 60% 60%;
+    border: .20vmin solid black;
+    transform: scale(-0.8);
+}
+
+.row{
+    position:absolute;
+    top: 25;
+    left: 25;
+}

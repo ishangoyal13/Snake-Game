@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url("./assests/snake_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+.firstDiv{
+    justify-content: center;
+    align-content: center;
+    display:flex;
+}
+
+.heading{
+    font-family: 'Frijole', cursive;
+    color:white;
+    margin-top: 90px;
+    font-size: 70px;
+    
+}
+.head-effect{
+    position: relative;
+    background: linear-gradient(to right, white, rgb(166, 255, 0) 50%,yellow 50%,red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+}
+.head-effect:hover{
+    color: crimson;
+    background-position: 0 100%;
+}
+
+#Bottom {
+    position : absolute;
+    bottom : 0;
+    color: white;
+}
+.row{
+    position:absolute;
+    top:280px;
+}
+button.close {
+    background: #d73e4d;
+    background: rgba(215, 62, 77, 0.75);
+    border: 0 none !important;
+    color: red;
+    display: inline-block;
+    float: right;
+    font-size: 35px;
+    height: 40px;
+    line-height: 0;
+    margin: 0px 0px;
+    opacity: 1;
+    text-align: center;
+    text-shadow: none;
+    -webkit-transition: background 0.2s ease-in-out;
+    transition: background 0.2s ease-in-out;
+    vertical-align: top;
+    width: 46px;
+}
+.modal{
+    backdrop-filter: blur(5px);
+}
